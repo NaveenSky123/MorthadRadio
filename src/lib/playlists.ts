@@ -26,8 +26,8 @@ export const playlists: Playlist[] = [
   {
     id: 'playlist-1',
     name: 'Morning Waves',
-    startHour: 11,
-    startMinute: 50,
+    startHour: 12,
+    startMinute: 10,
     tracks: [
       {
         id: 'mw-1',
@@ -253,46 +253,6 @@ export const playlists: Playlist[] = [
         duration: 300,
       },
     ],
-  },
-  {
-    id: 'playlist-2',
-    name: 'Afternoon Vibes',
-    startHour: 14, // 2:00 PM
-    startMinute: 0,
-    tracks: [],
-  },
-  {
-    id: 'playlist-3',
-    name: 'Evening Sessions',
-    startHour: 19, // 7:05 PM
-    startMinute: 5,
-    tracks: [
-      {
-        id: '1',
-        title: 'Aarya Nanu',
-        src: '/audio/aarya-nanu-01.mp3',
-        duration: 300, // Will be updated dynamically
-      },
-      {
-        id: '2',
-        title: 'Anjani Tanayya',
-        src: '/audio/anjani-tanayya-13.mp3',
-        duration: 300, // Will be updated dynamically
-      },
-      {
-        id: '3',
-        title: 'Gajavadana Mix',
-        src: '/audio/gajavadana-mix-17.mp3',
-        duration: 300, // Will be updated dynamically
-      },
-    ],
-  },
-  {
-    id: 'playlist-4',
-    name: 'Night Echoes',
-    startHour: 22, // 10:50 PM
-    startMinute: 50,
-    tracks: [],
   },
 ];
 
